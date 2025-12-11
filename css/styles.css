@@ -823,6 +823,16 @@ p {
   margin: 0;
 }
 
+.contact-info-item a {
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-info-item a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .contact-hours {
   margin-top: 30px;
   padding-top: 30px;

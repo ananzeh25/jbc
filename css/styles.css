@@ -783,8 +783,10 @@ p {
 /* Contact Page */
 .contact-section {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr;
   gap: 60px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .contact-info-card {
